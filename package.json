@@ -1,0 +1,33 @@
+{
+  "name": "oxlint-plugin-arrow-body-style",
+  "version": "0.1.0",
+  "description": "Oxlint plugin that requires braces around arrow function bodies.",
+  "keywords": [
+    "oxlint",
+    "oxlint-plugin",
+    "arrow-body-style"
+  ],
+  "homepage": "https://github.com/jeremytenjo/oxlint-plugin-arrow-body-style#readme",
+  "bugs": {
+    "url": "https://github.com/jeremytenjo/oxlint-plugin-arrow-body-style/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremytenjo/oxlint-plugin-arrow-body-style.git"
+  },
+  "license": "MIT",
+  "author": "tenjojeremy",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
